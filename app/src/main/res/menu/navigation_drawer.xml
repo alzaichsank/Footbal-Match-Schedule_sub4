@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/main_menu_match_prev"
+        android:icon="@drawable/ic_trophy"
+        android:title="@string/prev"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/main_menu_match_next"
+        android:icon="@drawable/ic_event"
+        android:title="@string/next"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/main_menu_match_favorites"
+        android:icon="@drawable/ic_favorites"
+        android:title="@string/fav"
+        app:showAsAction="always|withText" />
+
+</menu>

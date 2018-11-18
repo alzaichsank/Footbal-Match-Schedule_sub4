@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <TextView
+            android:id="@+id/date"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:text="@string/dummy_date"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            >
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_weight="0.6"
+                    android:id="@+id/ID_HOME_TEAM"
+                    android:textColor="@color/md_black_1000"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:text="@string/dummy_club"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/ID_HOME_SCORE"
+                    android:textColor="@color/md_black_1000"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:text="@string/dummy_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_weight="1"
+                    android:textColor="@color/md_black_1000"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:text="@string/dummy_vs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/ID_AWAY_SCORE"
+                    android:textColor="@color/md_black_1000"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:text="@string/dummy_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_weight="0.6"
+                    android:id="@+id/ID_AWAY_TEAM"
+                    android:textColor="@color/md_black_1000"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:text="@string/dummy_club"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/md_grey_300" />
+
+</LinearLayout>
